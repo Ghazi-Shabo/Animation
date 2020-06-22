@@ -1,0 +1,85 @@
+
+body{
+    background-color: rgb(68, 82, 68);
+    color: white;
+    text-align: center;
+    
+}
+  
+   
+
+h1{
+   
+   
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: gg;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: relative;
+    font-size: 4em;
+
+
+}
+@keyframes gg {
+    0%{
+        top: -50px;
+    }
+    100%{
+       top:160px;
+    }
+}
+.div{
+    width: 940px;
+    font-size: 1.4em;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    animation-name: ggg;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: relative;
+    
+    
+}
+@keyframes ggg {
+    0%{
+        left: -1000px;
+    }
+    100%{
+  
+    }
+}
+#btn{
+    border: 2px solid;
+    padding: 12px;
+    position: absolute;
+    top: 410px;
+    left: 914px;
+    font-size: 17px;
+    animation-name: hgg;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transition: all 1s linear;
+    
+}
+
+@keyframes hgg {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
+#btn:hover {
+    transform: rotateX(180deg);
+    border-radius: 9px;
+  
+    
+   
+    
+}
+
+
